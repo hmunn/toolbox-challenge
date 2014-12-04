@@ -1,8 +1,43 @@
+h1 {
+	text-align: center;
+}
 
+div ul{
+	text-align: center;
+}
+
+ul li{
+	display: inline-block;
+	padding-left: 1em;
+}
+
+#start-button{
+	text-align: center;
+}
 
 #game-board img{
-	width: 25%;
-	height: 25%;
+	width: 11%;
+	height: 11%;
 	padding: 5px;
 	box-sizing: border-box;
+	background-color: #888888;
+}
+
+#game-board {
+	margin-right: 10%;
+	margin-left: 10%;
+    display: block;
+}
+
+#end-game {
+	text-align: center;
+
+}
+
+body {
+	width: 70%;
+}
+
+p {
+	margin: auto;
 }

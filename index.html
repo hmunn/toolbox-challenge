@@ -3,17 +3,27 @@
 	<head lang="en">
 		<meta charset="UTF-8">
 		<title>Memory!</title>
+		<link rel="icon" href="img/memory-icon.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 
-	<body>
+	<body class="container">
 		<h1>Memory!</h1>
-		<p><button id="start-game">Start New Game</button></p>
-
-		<p>elapsed time <span id="elapsed-seconds"></span></p>
+		<div class="first-row">
+			<div id="start-button"><button id="start-game">Start New Game</button></div>
+			<div id="score">
+				<ul>
+					<li>elapsed time <span id="game-seconds"> 0 seconds</span></li>
+					<li>number matched <span id="successful-matches"> 0</span></li>
+					<li>number of turns <span id="game-turns"> 0</span></li>
+					<li>remaining matches <span id="remaining-matches"> 8</span></LI>
+				</ul>
+			</div>
+			<div id="end-game"></div>
+		</div>
 
 		<div id="game-board"></div>
-
 	</body>
 
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
