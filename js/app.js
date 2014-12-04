@@ -21,6 +21,8 @@ $(document).ready(function() {
         var turns = 0;
         $('#game-board').empty();
         $('#game-board').css('display', 'inline');
+        $('#score').css('display', 'inline');
+        $('#end-game').fadeOut(1000);
         clearInterval(gameTimer);
         
         var startTime = Date.now();

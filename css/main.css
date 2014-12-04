@@ -16,8 +16,8 @@ ul li{
 }
 
 #game-board img{
-	width: 11%;
-	height: 11%;
+	width: 10%;
+	height: 10%;
 	padding: 5px;
 	box-sizing: border-box;
 	background-color: #888888;
